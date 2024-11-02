@@ -1,0 +1,21 @@
+ul {background-color: #D6FF6B;border-radius: 10px;width: 750px;text-decoration-color: rgb(138, 198, 78);font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+#w {background-color: #ffffff;
+    position: relative;
+width: 300px;
+height: 150px;
+left: 20px;
+border-radius: 10px;
+}
+#tool {background-color: #D6FF6B;
+
+width: 750px;
+border-radius: 10px;
+}
+body {background-color: #29343f;}
+#chat {
+    background-color: #3979b9;
+    position: sticky;
+    width: 500px;
+    left: 1000px;
+    top: 0px;
+}
