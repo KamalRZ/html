@@ -1,4 +1,9 @@
-ul {background-color: #D6FF6B;border-radius: 10px;width: 750px;text-decoration-color: rgb(138, 198, 78);font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+ul {background-color: #D6FF6B;border-radius: 10px;width: 750px;text-decoration-color: rgb(138, 198, 78);}
+#stycky {
+    background-color: #29343f;
+
+}
 #w {background-color: #ffffff;
     position: relative;
 width: 300px;
@@ -18,4 +23,36 @@ body {background-color: #29343f;}
     width: 500px;
     left: 1000px;
     top: 0px;
+}
+@keyframes color-change {
+    0% {
+      color: rgb(0, 229, 255);
+      size: 12222px;
+    }
+1% {color: #fbff00;
+size: 10px;}
+    50% {
+      color: red;
+    }
+
+    100% {
+      color: blue;
+      size: 123px;
+    }
+}
+@keyframes clr2 {
+    0% {color: #d11a1a;
+        border-radius: 0px;
+    }
+    15% {color: #0bf6bb;
+    border-radius: 15px;}
+    30% {color: #df16be;border-radius: 30px;}
+    45% {color: #423c38;border-radius: 45px;}
+    60% {color: #064214;border-radius: 6px;}
+    75% {color: #1bd5e6;border-radius: 45px;}
+    90% {color: rgb(101, 147, 220);border-radius: 30px;}
+    100% {color:#d11a1a;border-radius:calc(border-radius + 300px);}
+}
+#tool {
+    animation: clr2 3s infinite;
 }
